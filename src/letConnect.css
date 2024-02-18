@@ -1,0 +1,120 @@
+.connect_container{
+    height: 560px;
+    background-color: azure;
+}
+.component_connect{
+    padding-top: 1%;
+    position: relative;
+}
+.component_connect h3{
+    padding-left: 65%;
+    color:black;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+.component_connect h4{
+    padding-left: 57%;
+    color:dimgray;
+}
+.connect_container img{
+    position: absolute;
+    width: 50%;
+    height: 560px;
+}
+.form_details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 60%;
+}
+.form_details input{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width:400px;
+    height:20px;
+}
+.form_details textarea{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width:400px;
+    height:50px;
+}
+
+.form_details label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+.form_details button{
+    width: 120px;
+    height: 40px;
+    background-color: #CADBE7;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: black;
+    font-size: 17px;
+}
+.form_details button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    transition: box_shadow 1ms;
+    cursor: pointer;
+    width:125px;
+    height:42px;
+    transition: all 0.10s;
+}
+
+@media only screen and (max-width: 1024px) {
+    .connect_container{
+        height: 560px;
+    }
+    .component_connect h3{
+        padding-left: 56%;
+        font-size: 24px;
+    }
+    .component_connect h4{
+        padding-left: 56%;
+    }
+    .form_details{
+        padding-left: 56%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .connect_container img{
+        width: 0px;
+        height: 0px;
+    }
+    .connect_container{
+        height: 550px;
+    }
+    .component_connect h3{
+        padding-left: 5%;
+        font-size: 24px;
+    }
+    .component_connect h4{
+        padding-left: 5%;
+    }
+    .form_details{
+        padding-left: 5%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .connect_container img{
+        width: 0px;
+        height: 0px;
+    }
+    .connect_container{
+        height: 550px;
+    }
+    .component_connect h3{
+        padding-left: 5%;
+        font-size: 20px;
+    }
+    .component_connect h4{
+        padding-left: 5%;
+    }
+    .form_details{
+        padding-left: 5%;
+    }
+}
+
+
+
